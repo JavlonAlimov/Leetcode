@@ -2,17 +2,20 @@
 {
     public int[] PlusOne(int[] digits)
     {
+        // Array'ni oxiridan boshlab yurgazamiz
+        for (int i = digits.Length - 1; i >= 0; i--)
+        {
+            if (digits[i] < 9)
+            {
+                digits[i]++;
+                return digits; // Increment qilingandan keyin natijani qaytaramiz
+            }
+            digits[i] = 0; // 9 bo'lsa, 0 ga aylantiramiz va oldingi raqamga o'tamiz
+        }
 
-        string result = string.Join(string.Empty, digits);
-
-        int numbers = int.Parse(result);
-
-        numbers += 1;
-
-        string numberString = numbers.ToString();
-
-
-        int[] resultArray = numberString.Select(digit => int.Parse(digit.ToString())).ToArray();
-        return resultArray;
+        // Agar hamma raqamlar 9 bo'lsa, yangi array yaratamiz
+        int[] newNumber = new int[digits.Length + 1];
+        newNumber[0] = 1; // Birinchi raqam 1 bo'ladi
+        return newNumber; // Barcha boshqa raqamlar 0 bo'lib qoladi
     }
 }
