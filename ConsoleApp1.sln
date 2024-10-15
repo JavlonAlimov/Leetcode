@@ -5,15 +5,14 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{E2737815-9033-44F1-A888-2492353A8D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "66_OnePlus", "66_OnePlus\66_OnePlus.csproj", "{7208011A-4067-423B-80C9-41B692351994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "66_OnePlus", "66_OnePlus\66_OnePlus.csproj", "{7208011A-4067-423B-80C9-41B692351994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Add Two Numbers(Medium)", "2. Add Two Numbers(Medium)\2. Add Two Numbers(Medium).csproj", "{DDC158F1-EC7C-42A9-895F-D19952F7FBD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E2737815-9033-44F1-A888-2492353A8D5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +23,15 @@ Global
 		{7208011A-4067-423B-80C9-41B692351994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7208011A-4067-423B-80C9-41B692351994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7208011A-4067-423B-80C9-41B692351994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC158F1-EC7C-42A9-895F-D19952F7FBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC158F1-EC7C-42A9-895F-D19952F7FBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC158F1-EC7C-42A9-895F-D19952F7FBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC158F1-EC7C-42A9-895F-D19952F7FBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C7A6347-7DAF-42C5-9512-B93068A53252}
 	EndGlobalSection
 EndGlobal

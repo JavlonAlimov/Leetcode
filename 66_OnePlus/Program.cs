@@ -1,5 +1,9 @@
 ﻿public class Solution
 {
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
     public int[] PlusOne(int[] digits)
     {
         // Array'ni oxiridan boshlab yurgazamiz
